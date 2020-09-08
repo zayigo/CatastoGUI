@@ -2,8 +2,15 @@
 
 CatastoGUI is a basic tool, written in Java 11, to query the land registry of the Provincia Autonoma di Trento developed as a project for the programming exam at *Università degli Studi di Milano*.
 
+<p align="center">
+  <img src="demo.gif" alt="animated" />
+</p>
+
 ## User interface
 The user interface is built using [JavaFX](https://openjfx.io/) v11, the layout is stored in a FXML file.
+
+## Non-blocking requests
+All I/O bound operations are executed in a separate Thread to prevent blocking the UI and to ensure a pleasant UX.
 
 ## Duplex communication
 This tool features a built-in, locally hosted map powered by [Leaflet](https://github.com/Leaflet/Leaflet) that can interact with the Java code and the other way around.
