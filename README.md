@@ -1,6 +1,6 @@
 # CatastoGUI [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-CatastoGUI is a basic tool, written in Java 11, to query the land registry of the Provincia Autonoma di Trento developed as a project for the programming exam at *Università degli Studi di Milan*.
+CatastoGUI is a basic tool, written in Java 11, to query the land registry of the Provincia Autonoma di Trento developed as a project for the programming exam at *Università degli Studi di Milano*.
 
 ## User interface
 The user interface is built using [JavaFX](https://openjfx.io/) v11, the layout is stored in a FXML file.
