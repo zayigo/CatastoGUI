@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>CatastoGUI</artifactId>
+
+  <dependencies>
+    <dependency>
+      <artifactId>jackson-databind</artifactId>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <version>2.9.10.6</version>
+    </dependency>
+    <dependency>
+      <artifactId>commons-text</artifactId>
+      <groupId>org.apache.commons</groupId>
+      <version>1.9</version>
+    </dependency>
+  </dependencies>
+  <groupId>groupId</groupId>
+  <modelVersion>4.0.0</modelVersion>
+  <properties>
+    <java.version>11</java.version>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+  </properties>
+  <version>1.0-SNAPSHOT</version>
+
+</project>

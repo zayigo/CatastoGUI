@@ -1,0 +1,10 @@
+.combo-box:error {
+  -fx-text-box-border: #F44336;
+  -fx-focus-color: #F44336;
+  -fx-effect: innershadow(gaussian, #F44336, 10, 0, 0, 0);
+}
+.text-field:error {
+  -fx-text-box-border: #F44336;
+  -fx-focus-color: #F44336;
+  -fx-effect: innershadow(gaussian, #F44336, 10, 0, 0, 0);
+}
